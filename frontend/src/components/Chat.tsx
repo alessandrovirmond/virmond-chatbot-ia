@@ -1,4 +1,3 @@
-// src/components/Chat/Chat.tsx
 import { Send } from "lucide-react";
 import { useChat } from "../hooks/useChat";
 import { ChatContainer, MessagesArea, MessageBubble, InputArea } from "./Chat.styles";
@@ -23,7 +22,7 @@ export function Chat() {
           placeholder="Digite sua mensagem..." 
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          disabled={isLoading} // Trava o input enquanto carrega
+          disabled={isLoading} 
         />
         <button type="submit" disabled={isLoading}>
           <Send size={20} />
