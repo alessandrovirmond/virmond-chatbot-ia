@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ThhOFLdKZco=",
+  "dgSpecHash": "juTfj5B0RKE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\repo\\pessoal\\virmond_chatbot_ia\\virmond-chatbot-ia\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\user\\repo\\pessoal\\virmond_chatbot_ai\\virmond-chatbot-ia\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.3\\microsoft.aspnetcore.authentication.jwtbearer.10.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
