@@ -33,6 +33,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IChatService, ChatService>();
 
+builder.Services.AddHttpClient();
+
 var app = builder.Build();
 
 

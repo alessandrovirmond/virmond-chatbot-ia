@@ -1,3 +1,4 @@
+
 export const sendMessageToApi = async (message: string, token: string) => {
   const response = await fetch("http://localhost:5014/api/chat/send", {
     method: "POST",

@@ -42,3 +42,4 @@ C:\Users\user\repo\pessoal\virmond_chatbot_ia\virmond-chatbot-ia\backend\obj\Deb
 C:\Users\user\repo\pessoal\virmond_chatbot_ia\virmond-chatbot-ia\backend\obj\Debug\net10.0\backend.pdb
 C:\Users\user\repo\pessoal\virmond_chatbot_ia\virmond-chatbot-ia\backend\obj\Debug\net10.0\backend.genruntimeconfig.cache
 C:\Users\user\repo\pessoal\virmond_chatbot_ia\virmond-chatbot-ia\backend\obj\Debug\net10.0\ref\backend.dll
+C:\Users\user\repo\pessoal\virmond_chatbot_ia\virmond-chatbot-ia\backend\obj\Debug\net10.0\backend.sourcelink.json
