@@ -1,0 +1,28 @@
+# ==========================================
+# ARQUIVOS DE COMPILAÇÃO E CACHE (LIXO)
+# ==========================================
+[Bb]in/
+[Oo]bj/
+
+# ==========================================
+# CONFIGURAÇÕES LOCAIS E SEGREDOS (CHAVES)
+# ==========================================
+appsettings.json
+appsettings.*.json
+secrets.json
+.env
+
+# ==========================================
+# ARQUIVOS DO VISUAL STUDIO / VS CODE
+# ==========================================
+.vs/
+.vscode/
+*.user
+*.suo
+*.code-workspace
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+.DS_Store
+Thumbs.db
