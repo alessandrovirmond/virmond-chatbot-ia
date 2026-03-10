@@ -5,13 +5,13 @@ export const ChatContainer = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: 800px;
-  height: 80vh;
+  height: 85vh;
   background: rgba(30, 41, 59, 0.5);
   border: 1px solid #334155;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  margin-top: 2rem;
+  margin-top: 1rem;
 `;
 
 export const MessagesArea = styled.div`
@@ -71,6 +71,60 @@ export const InputArea = styled.form`
 
     &:hover {
       background-color: #0ea5e9;
+    }
+  }
+`;
+
+export const ChatHeader = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Empurra os itens para as pontas */
+  padding: 1rem 1.5rem;
+  background-color: #0f172a;
+  border-bottom: 1px solid #334155;
+
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    h2 {
+      font-size: 1.1rem;
+      color: #f8fafc;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    
+    img {
+      border-radius: 8px; /* Deixa a logo levemente arredondada, se for quadrada */
+      object-fit: cover;
+    }
+  }
+
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    a {
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      transition: all 0.2s;
+
+      &:hover {
+        color: #f8fafc;
+        transform: scale(1.1); /* Um efeitinho legal ao passar o mouse */
+      }
+    }
+
+    span {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      background: #1e293b;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      font-weight: 500;
     }
   }
 `;
