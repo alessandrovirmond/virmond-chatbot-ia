@@ -7,10 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // 1. CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("PermitirReact", policy =>
+    options.AddPolicy("PermitirFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
-              .AllowAnyHeader()
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader() 
               .AllowAnyMethod();
     });
 });
@@ -37,6 +37,7 @@ builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
+app.UseCors("PermitirFrontend");
 
 if (app.Environment.IsDevelopment())
 {
