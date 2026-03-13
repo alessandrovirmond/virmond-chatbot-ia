@@ -1,12 +1,9 @@
-
 export const sendMessageToApi = async (message: string, token: string) => {
+  const API_BASE_URL = import.meta.env.DEV
+    ? "http://localhost:5014"
+    : "https://virmond-chatbot-ia.onrender.com";
 
-  const API_BASE_URL = import.meta.env.DEV 
-  ? "http://localhost:5014" 
-  : "https://virmond-chatbot-ia.onrender.com";
-
-
-  const response = await fetch("API_BASE_URL/api/chat/send", {
+  const response = await fetch(`${API_BASE_URL}/api/chat/send`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
